@@ -1,0 +1,33 @@
+[
+    {
+        "SponsorID": 1,
+        "FirstBAID": 7395836
+    },
+    {
+        "SponsorID": 2,
+        "FirstBAID": 3509279,
+        "SecondBAID": 2947210
+    },
+    {
+        "SponsorID": 3,
+        "FirstBAID": 1776294,
+        "SecondBAID": 6503843
+    },
+    {
+        "SponsorID": 4,
+        "FirstBAID": 8014528,
+        "SecondBAID": 6203155
+    },
+    {
+        "SponsorID": 5,
+        "FirstBAID": 5968769,
+        "SecondBAID": 7410195,
+        "ThirdBAID":8950170,
+    },
+{
+        "SponsorID": 6,
+        "FirstBAID": 5968769,
+        "SecondBAID": 7410195,
+        "ThirdBAID":8950170,
+    }
+]

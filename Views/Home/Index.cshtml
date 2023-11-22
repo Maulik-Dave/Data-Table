@@ -1,0 +1,22 @@
+﻿<table id="example" class="display">
+</table>
+<script>
+    var ajaxurl = '@Url.Action("GetJson", "Home")';
+    $.ajax({
+        "url": ajaxurl,
+        "type": "GET",
+        "datatype": 'json',
+        "success": function (data) {
+            data = data.value;
+            $('#example').DataTable({
+                data: data,  // Get the data object
+                columns: [
+                    { 'data': 'sponsorID', "sTitle": "SponsorID" },
+                    { 'data': 'firstBAID', "sTitle": "FirstBAID" },
+                    { 'data': 'secondBAID', "sTitle": "SecondBAID" },
+                    { 'data': 'thirdBAID', "sTitle": "ThirdBAID" },
+                ]
+            });
+        }
+    })
+</script>
